@@ -1,11 +1,10 @@
-function skillMember() {
+function skillsMember() {
     var member = {
-        name: 'John',
+        name: 'John Doe',
         age: 30,
         skills: ['HTML', 'CSS', 'JS'],
-        // Method
-        getSkills: function () {
-            return this.skills;
+        greeting: function() {
+            console.log('Hello, I am ' + this.name + '!');
         }
     };
     return member;
